@@ -1,0 +1,19 @@
+{
+  "default_question": "What is first aid training?",
+  "lucky_questions": [
+    "How to perform CPR?",
+    "How to deal with an emergency?",
+    "When to refer to a healthcare facility?"
+  ],
+  "context_header": "First aid training is a low cost, but highly effective strategy to reduce morbidity and mortality.\n",
+  "context_qa": [
+    {
+      "question": "How long has first aid been practiced?",
+      "answer": "First aid has been practised in the world since antiquity. There is enough evidence that it was used to give relief to the injured and sick persons in wars and calamities in India since the times of Mahabarata."
+    },
+    {
+      "question": "How to use this first aid manual?",
+      "answer": "This manual is offered by the Indian Red Cross Society and the St John Ambulance Association India for use by their members and the general public. Being laymen in the field of medicine, it is expected that they will practice the basic principles of first aid and render such aid needed by the casualty (casualties) till medical aid arrives or the person(s) has (have) been transported to the hospital. The basic characteristic of this manual is to make the layman fully competent practically in the subject."
+    }
+  ]
+}

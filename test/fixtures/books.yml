@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: Test Book
+
+two:
+    title: 'The Minimalist Entrepreneur'
+    purchase_link: 'https://www.amazon.com/Minimalist-Entrepreneur-Great-Founders-More/dp/0593192397'
+    file_path: ''
+    image_path: 'the-minimalist-entrepreneur/book.png'
+    embeddings_path: 'storage/books/the-minimalist-entrepreneur/embeddings.csv'
+    pages_path: 'storage/books/the-minimalist-entrepreneur/pages.csv'
+    default_question: 'What is the book about?'
+    context_header: ''
+    context_qa: ''
