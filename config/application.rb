@@ -29,7 +29,7 @@ module AskMyBook
     config.middleware.use ActionDispatch::Session::CookieStore
     config.action_dispatch.cookies_same_site_protection = :strict
 
-    config.book_title = 'The Minimalist Entrepreneur'
-    # config.book_title = 'First Aid Manual'
+    # config.book_title = 'The Minimalist Entrepreneur'
+    config.book_title = 'First Aid Manual'
   end
 end
