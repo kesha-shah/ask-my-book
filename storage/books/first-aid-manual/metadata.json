@@ -14,6 +14,18 @@
     {
       "question": "How to use this first aid manual?",
       "answer": "This manual is offered by the Indian Red Cross Society and the St John Ambulance Association India for use by their members and the general public. Being laymen in the field of medicine, it is expected that they will practice the basic principles of first aid and render such aid needed by the casualty (casualties) till medical aid arrives or the person(s) has (have) been transported to the hospital. The basic characteristic of this manual is to make the layman fully competent practically in the subject."
+    }, 
+    {
+      "question": "How to deal with an emergency?",
+      "answer": "In an emergency situation, there are four main steps that always apply: 1. Make the area safe. 2. Evaluate the injured person’s condition. 3. Seek help. 4. Give first aid. When making the area safe, it is important to check for any danger, such as traffic, fire, or electricity cables. It is also important to protect both the injured person and other people on the scene. It is also important to seek help from the police or emergency services, and to switch off the engine of any cars involved in the accident."
+    },
+    {
+      "question": "How to perform CPR?",
+      "answer": "To perform CPR, first turn the casualty on their back on a hard surface. Kneel beside the casualty's upper arm and place the heel of one hand in the center of the person's chest. Place the heel of the other hand on top of the first hand and lock your fingers together. Make sure your shoulders are directly above the person's chest. With outstretched arms, push five to maximum six centimetres downwards. Release the pressure and avoid leaning on the chest between compressions to allow full chest recoil. Give 30 chest compressions in this way at a rate of 100 compressions a minute. If the casualty is not breathing, tilt their head back and pinch their nose."
+    },
+    {
+      "question": "When to refer to a healthcare facility?",
+      "answer": "Any person that has stopped breathing or needed CPR should always be transported to the nearest healthcare facility as quickly as possible continuing CPR. Additionally, any person who is severely injured, feeling nausea, becoming sleepy, or falling unconscious should be referred to a healthcare facility for further medical attention."
     }
   ]
 }
