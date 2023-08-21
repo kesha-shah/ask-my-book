@@ -26,17 +26,17 @@ To set up the app, follow these steps:
 4. Create the `books_development` and `books_test` database in Postgres. If running locally, you can use the `rails db:create` command.
 5. Migrate the database using `rails db:migrate`.
 6. Go to `config/application.rb` and replace `open_api_secret` with your Open AI API key.
-7. To setup the database with in-built books, follow the instructions in the comments in `lib/tasks/create_books.rake`.
-8. Please make sure in `config/application.rb`, the `book_title` is equal to the title of the book you want to use. Make sure that you have performed the setup for the book as described in step 5.
+7. To setup the database with in-built books, follow the instructions in the [comments](https://github.com/kesha-shah/ask-my-book/blob/main/lib/tasks/create_books.rake) in `lib/tasks/create_books.rake`.
+8. Please make sure in `config/application.rb`, the `book_title` is equal to the title of the book you want to use. Make sure that you have performed the setup for the book as described in step 7.
 
 ### Frontend setup:
 
-1. Install frontend dependencies using `cd askmybook-react && npm install`.
+1. Install frontend dependencies using `cd client && npm install`.
 
 ## Running
 
 1. To run the Rails backend, run the following command from the project root: `rails s`. The backend will be available at http://localhost:3000.
-2. To run the React frontend, run the following command from `/askmybook-react`: `npm start`. The frontend will be available at http://localhost:3001.
+2. To run the React frontend, run the following command from `/client`: `npm start`. The frontend will be available at http://localhost:4000.
 
 ## Adding a new book
 
@@ -44,7 +44,7 @@ To add a new book, follow these steps:
 
 1. Create a new book folder under `/storage/books`, and copy the PDF file there.
 2. Create a new file in the same folder called `metadata.json`, and fill it with a list of default questions and contextual questions. These are used for context when asking OpenAI. See the example in `/storage/books/the-minimalist-entrepreneur/metadata.json` for reference.
-3. Add the book's cover image to the `askmybook-react/public` directory after creating a new folder for the book.
+3. Add the book's cover image to the `client/public` directory after creating a new folder for the book.
 4. Follow the instructions in the comments in `lib/tasks/create_books.rake`. In this case, embeddings will need to be generated, so see the relevant example. This is to load the book's details in the database.
 5. To actually use the book in the app, change the `book_title` in `config/application.rb` to the title of the new book.
 6. Restart the backend server.
