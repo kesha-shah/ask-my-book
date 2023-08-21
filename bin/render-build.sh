@@ -8,6 +8,6 @@ rm -rf public
 npm install --prefix client && npm run build --prefix client
 
 bundle exec rake db:migrate
-bundle exec rake book:create title='The Minimalist Entrepreneur' purchase_link='https://www.amazon.com/Minimalist-Entrepreneur-Great-Founders-More/dp/0593192397' image_path='/the-minimalist-entrepreneur/book.png' embeddings_path='storage/books/the-minimalist-entrepreneur/embeddings.csv' pages_path='storage/books/the-minimalist-entrepreneur/pages.csv' metadata_json_path='storage/books/the-minimalist-entrepreneur/metadata.json'
+bundle exec rake book:create title='First Aid Manual' purchase_link='https://www.indianredcross.org/publications/FA-manual.pdf' image_path='/first-aid-manual/book.png' embeddings_path='storage/books/first-aid-manual/embeddings.csv' pages_path='storage/books/first-aid-manual/pages.csv' metadata_json_path='storage/books/first-aid-manual/metadata.json'
 
 cp -a client/build/. public/
