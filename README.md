@@ -26,7 +26,7 @@ To set up the app, follow these steps:
 4. Create the `books_development` and `books_test` database in Postgres. If running locally, you can use the `rails db:create` command.
 5. Migrate the database using `rails db:migrate`.
 6. Go to `config/application.rb` and replace `open_api_secret` with your Open AI API key.
-7. To setup the database with in-built books, follow the instructions in the comments in `lib/tasks/create_books.rake`.
+7. To setup the database with in-built books, follow the instructions in the [comments](https://github.com/kesha-shah/ask-my-book/blob/main/lib/tasks/create_books.rake) in `lib/tasks/create_books.rake`.
 8. Please make sure in `config/application.rb`, the `book_title` is equal to the title of the book you want to use. Make sure that you have performed the setup for the book as described in step 5.
 
 ### Frontend setup:
