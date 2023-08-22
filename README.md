@@ -4,7 +4,7 @@
 
 Ask My Book is a web application that uses generative AI to allow users to ask questions to a book. The app is made using Ruby on Rails as a backend and has a React frontend.
 
-[Live Demo](https://ask-my-book-q1d7.onrender.com/) (Note: Only cached questions would work if my free OpenAI Tokens have expired and also response time might be higher as I am using Render free hosting with only 0.1CPU and 512MB ram)
+[Live Demo](https://ask-my-book-q1d7.onrender.com/) (Note: Only cached questions would work if my free OpenAI Tokens have expired and also response time might be higher as I am using [Render free hosting](https://render.com/docs/free) with only 0.1CPU and 512MB ram, If the page does not load, please refresh it a few times and wait for 5-10 minutes. This will allow the server to restart after shutting down due to inactivity.)
 
 ## Pre-requisites
 
