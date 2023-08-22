@@ -22,7 +22,6 @@ const getBook = async () => {
 }
 
 export default function Home() {
-  console.log(`Inside home`)
   const navigate = useNavigate();
   const { id } = useParams();
   const [question, setQuestion] = useState("");
@@ -30,16 +29,13 @@ export default function Home() {
   const [answer, setAnswer] = useState("");
   const [waiting_for_answer, setWaitingForAnswer] = useState("");
   const location = useLocation(); 
-  console.log(`book url is ${book.purchase_link} and image path is ${book.image_path}`)
 
   
   useEffect(() => {
-    console.log("Inside Use Effect")
     if (location.pathname === '/') {
      // Make API call to backend server's /book endpoint
       getBook()
         .then(book => {
-          console.log(`main book url is ${book.purchase_link} and image path is ${book.image_path}`)
         setBook(book);
         setQuestion(book.current_question);
     })
@@ -62,8 +58,6 @@ export default function Home() {
       if(!book){
         getBook()
         .then(book => {
-          console.log(`inside question book url is ${book.purchase_link} and image path is ${book.image_path}`)
-
         setBook(book);
     })
     }

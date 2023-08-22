@@ -1,7 +1,6 @@
 import BookImage from "../assets/placeholder.png";
 
 function Header({image, book_url}) {
-  console.log(`image is ${image} and book_url is ${book_url}`)
     return (
         <div className="header">
         <div className="logo">
