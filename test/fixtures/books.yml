@@ -13,3 +13,14 @@ two:
     default_question: 'What is the book about?'
     context_header: ''
     context_qa: ''
+
+three:
+    title: 'First Aid Manual'
+    purchase_link: ''
+    file_path: ''
+    image_path: 'first-aid-manual/book.png'
+    embeddings_path: 'storage/books/first-aid-manual/embeddings.csv'
+    pages_path: 'storage/books/first-aid-manual/pages.csv'
+    default_question: 'What is the book about?'
+    context_header: ''
+    context_qa: ''

@@ -40,7 +40,7 @@ class BooksController < ApplicationController
   #
   # @return [JSON] The JSON response containing the answer to the question.
   def question
-    question = Question.find_by(id: params['id'])
+    question = Question.find_by(id: params['id'], book_id: Book.instance.id)
     if question
       render json: { id: question.id, answer: question.answer, current_question: question.question }
     else
